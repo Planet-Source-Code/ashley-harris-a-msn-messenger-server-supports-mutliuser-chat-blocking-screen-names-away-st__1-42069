@@ -1,0 +1,7 @@
+REGEDIT4
+
+; ------ Modify the value below to point to the server -------------------------------------------
+; Dommainname;IP address;Port
+
+[HKEY_CURRENT_USER\Software\Microsoft\MessengerService]
+server="mydommainname.com;127.0.0.1;1863";
