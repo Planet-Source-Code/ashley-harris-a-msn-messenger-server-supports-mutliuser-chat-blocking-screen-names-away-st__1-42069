@@ -1,0 +1,25 @@
+
+FEATURES:
+
+- MSN messenger server
+- The server is pure VB6, no c++ or controls beyond winsock.
+- Server stored contact lists
+- full blocking support (you can block people you don't like)
+- Screennames
+- All the MSN states (On The Phone, Out To Lunch, Away, Idle, Invisible, etc.)
+- Secure login (password isn't sent)
+- Compatible with all (I hope) Microsoft MSN clients. (at least in the last few years)
+- Trillian Compatibility (at least v0.73)
+- supports any other app that implements the MSPN5 protocol
+- many chat sessions, each with unlimited 'chatters'. Same users can be in many conversations, etc.
+- Fonts/Colours/size/Bold/Italic/Underline options. Smilies also work (they're client dependant)
+- 'user is typing a message' support.
+- contact list notifications, ie 'Ashley has just added you to his list, do you want to add him?'
+- File Transfer support (sorta fell into place)
+- Netmeeting support (same protocol as file transfer)
+- 3rd party app support (two people with the same software and MSN messenger can play network games etc. over the network)
+- Session timeouts (fix those damn file transfer boards). (for each file transfer, a new socket is opened, and remains open for the however long your online). A sender and a recipient = 2 socks per transfer, plus the resources of maintaining a switchboard. PER FILE!
+- Logging of chats
+- Internal database editor.
+- .reg file for converting a computer to talk to a different msn messenger server
+- .vct source for apps to convert msn and trilian messenger servers (need installer vise from mindvision to compile)
